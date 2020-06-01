@@ -1,6 +1,5 @@
 package beakjoon;
 import java.util.*;
-
 public class B1260 {
 	static void bfs(ArrayList<Integer>[] graph, int start, boolean[] visited) {
 		if(visited[start] == false) {
@@ -55,5 +54,4 @@ public class B1260 {
 		visited = new boolean[n+1];
 		bfs(graph, start, visited);
 	}
-
 }
