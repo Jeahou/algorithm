@@ -1,8 +1,9 @@
 package beakjoon;
-import java.util.*;
+
+import java.util.Scanner;
 
 public class B9372 {
-
+	// 최소 신장 트리 문제이기에 나라 개수 -1
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
